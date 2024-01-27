@@ -1,12 +1,19 @@
 import Link from "next/link";
+import Links from "./links/Links";
 
 const Navbar = () => {
+
+
+
     return (
         <div>
         <div>Logo</div>
         <div>
-            <Link href="/">HomePage</Link>
-            <Link href="/About">About</Link>
+           
+           //Link fetches our pages before they are clicked
+            <Links/>
+            
+            
         </div>
         </div>
     )
